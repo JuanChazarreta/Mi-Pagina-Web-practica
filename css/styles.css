@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(226, 226, 226);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    background-color: rgb(0, 0, 255);
+    height: 60px;
+}
+
+header > h1 {
+    margin: 20px 25px;
+    color: white;
+}
+
+.apartados{
+    margin: 20px 25px;
+}
+
+.apartados > a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.hero{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px
+}
+
+div > h2{
+    background-color: rgba(0, 0, 0, 0.671);
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+}
+
+section{
+    background-color: white;
+    margin: 25px auto;
+    width: 800px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.753);
+}
+
+section > h3{
+    color: blue;
+    margin-bottom: 10px
+}
+
+footer {
+    background-color: rgb(0, 0, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > p{
+    display: flex;
+    color: white;
+}
+
+a:hover{
+    text-shadow: 0px 0px 5px black;
+}
